@@ -5,7 +5,7 @@ I plan to add resources that I am learning from and build upon this repository w
 Details:
 
 Python version 3  
-Platform: Jupyter Notebooks via Azure.
+IDE/Code Editor: VSCode
 
 Resources:
 
