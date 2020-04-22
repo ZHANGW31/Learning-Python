@@ -4,3 +4,6 @@ print("small int: ")
 print(smallInt);
 
 
+#You can also do it this way:
+
+userInput = input("Please enter your name: ")
