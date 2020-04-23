@@ -6,11 +6,18 @@
 #Program fishstore()
 
 #Create and test fishstore()
+#gather input for fish_entry and price_entry to use in calling fishstore()
+fish_entry = input("Please enter the type or name of the fish: ")
+price_entry = input("Please enter the price of the fish: ")
+
 
 #fishstore() takes 2 string arguments: fish and price
+def fishstore(fish, price):
 
-#fishtore returns a string in sentence form
-
-#gather input for fish_entry and price_entry to use in calling fishstore()
+    #fishtore returns a string in sentence form
+    output = "Fish Type: "+ fish + " costs " + price 
+    return output
 
 #print the return value of fishstore()
+
+print(fishstore(fish_entry, price_entry))
